@@ -1,5 +1,5 @@
 import cv2
-
+# Comment added to understand push & pull
 # Load the Haar cascades for face and eye detection
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')
